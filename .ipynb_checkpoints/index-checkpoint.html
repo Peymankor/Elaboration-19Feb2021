@@ -14322,19 +14322,14 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Now at time , $n=0$, her initial knowledge about the effectiveness of the drugs (in other words how much each drug reduce sugar level of patients is):</p>
+<p>Now at time , $n=0$, her initial knowledge about the effectiveness of the drugs (in other words how much each drug reduce sugar level of patients is):
+Note :( These are the measurement have been taken from millions of people with diabetes problem so give some estimate, say <em>initial belief</em>, however your <em>patient's</em> reaction to each medication is unique)</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 $$S^0 = [Norm(\overline{\mu}_{x=1}^{n=0}=30,\beta^{n=0}_{x=1}=0.1),\\ Norm(\overline{\mu}_{x=2}^{n=0}=25,\beta^{n=0}_{x=2}=0.1), \\Norm(\overline{\mu}_{x=3}^{n=0}=20,\beta^{n=0}_{x=3}=0.1),\\ Norm(\overline{\mu}_{x=4}^{n=0}=15,\beta^{n=0}_{x=4}=0.1),\\ Norm(\overline{\mu}_{x=5}^{n=0}=10,\beta^{n=0}_{x=5}=0.1)]$$<p>-</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><em>Note</em> : These are the measurement have been taken from millions of people with diabetes problem so give some estimate, say <em>initial belief</em>, however your <em>patient's</em> reaction to each medication is unique)</p>
 
 </div>
 </div>
@@ -14353,7 +14348,7 @@ $$S^0 = [Norm(\overline{\mu}_{x=1}^{n=0}=30,\beta^{n=0}_{x=1}=0.1),\\ Norm(\over
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 $$
-X^{UCB}(S_n|\theta^{UCB}) = argmax(\overline{\mu}_x^n + 0.5\sqrt{\frac{log(n+1)}{N_x^n+1}})  \\
+X^{UCB}(S_n|\theta^{UCB}) = argmax(\overline{\mu}_x^n + 0.5\sqrt{\frac{log(n+1)}{N_x^n+1}}  \\
 x \in \chi
 $$
 </div>
